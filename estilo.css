@@ -1,0 +1,65 @@
+header{
+    color: rgb(154, 33, 191);
+    text-align: center;
+}
+* {
+    padding: 20;
+    margin: 20;
+    box-sizing: border-box ;
+    background-color: black;
+}
+
+.album{
+
+
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content:space-evenly ;
+    gap: 2vw;
+    padding: 2vw; 
+}
+
+.foto-album img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.foto-album{
+    width: 340px;
+    height: 340px;
+    border: 10px solid pink;
+    box-shadow: 5px 5px 5px gray;
+    flex-grow: 1;
+    transition: transform 0.1s;
+    filter: blur(1px); 
+    filter: brightness(0.6); 
+    filter: contrast(190%);
+    filter: grayscale(25%);
+    filter: hue-rotate(22deg);
+    filter: opacity(20%);
+    
+    cursor: url(IMG/meu\ cursor.cur), default;
+  
+
+   
+  
+    
+
+
+  
+ 
+}
+
+.foto-album:hover{
+    transform: scale(1.5);
+    filter: grayscale(0);
+}
+    
+p{ font-size: 25px;
+
+}
+
+footer{
+
+background-color: darkgreen;
+}
